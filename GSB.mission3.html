@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="logo-FawzyElsam.jpg">
+
+    <title>GSB.misssion3B - Fawzy Elsam</title>
+    <style type="text/css" media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#44535B !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#44535B !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#2D3A40 !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#2D3A40 !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt /* Multi-Slot Booking */{ background:#18afd3; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#18afd3; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#18afd3; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }</style>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="http://fluencyformation.fr/wp-includes/css/dist/block-library/style.min.css?ver=5.0.4" type="text/css" media="all">
+    <link rel="stylesheet" id="booked-icons-css" href="http://fluencyformation.fr/wp-content/plugins/booked/assets/css/icons.css?ver=2.2.2" type="text/css" media="all">
+    <link rel="stylesheet" id="booked-tooltipster-css" href="http://fluencyformation.fr/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css?ver=3.3.0" type="text/css" media="all">
+    <link rel="stylesheet" id="booked-tooltipster-theme-css" href="http://fluencyformation.fr/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css?ver=3.3.0" type="text/css" media="all">
+    <link rel="stylesheet" id="booked-animations-css" href="http://fluencyformation.fr/wp-content/plugins/booked/assets/css/animations.css?ver=2.2.2" type="text/css" media="all">
+    <link rel="stylesheet" id="booked-styles-css" href="http://fluencyformation.fr/wp-content/plugins/booked/assets/css/styles.css?ver=2.2.2" type="text/css" media="all">
+    <link rel="stylesheet" id="booked-responsive-css" href="http://fluencyformation.fr/wp-content/plugins/booked/assets/css/responsive.css?ver=2.2.2" type="text/css" media="all">
+    <link rel="stylesheet" id="cookie-consent-style-css" href="http://fluencyformation.fr/wp-content/plugins/uk-cookie-consent/assets/css/style.css?ver=5.0.4" type="text/css" media="all">
+    <link rel="stylesheet" id="booked-fea-styles-css" href="http://fluencyformation.fr/wp-content/plugins/booked-frontend-agents/css/styles.css?ver=2.2.2" type="text/css" media="all">
+    <link rel="stylesheet" id="medison-fonts-css" href="https://fonts.googleapis.com/css?family=Dosis%3A400%2C500%2C600%2C700%7CRaleway%3A300%2C400%2C400i%2C500%2C700&amp;subset=latin%2Clatin-ext&amp;ver=1.0.0" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="http://fluencyformation.fr/wp-content/themes/medison/css/bootstrap.min.css?ver=1.0" type="text/css" media="all">
+    <link rel="stylesheet" id="fontawesome-css" href="http://fluencyformation.fr/wp-content/themes/medison/css/font-awesome.min.css?ver=1.0" type="text/css" media="all">
+    <link rel="stylesheet" id="offcanvas-css" href="http://fluencyformation.fr/wp-content/themes/medison/css/bootstrap.offcanvas.min.css?ver=1.0" type="text/css" media="all">
+    <link rel="stylesheet" id="fancybox-css" href="http://fluencyformation.fr/wp-content/themes/medison/fancybox/jquery.fancybox.css?ver=1.0" type="text/css" media="all">
+    <link rel="stylesheet" id="medison-style-css" href="http://fluencyformation.fr/wp-content/themes/medison/style.css?ver=1.0" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-style-css" href="http://fluencyformation.fr/wp-content/themes/medison/css/animate.css?ver=5.0.4" type="text/css" media="all">
+    <script type="text/javascript" src="http://fluencyformation.fr/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+    <script type="text/javascript" src="http://fluencyformation.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+    <style id="ctcc-css" type="text/css" media="screen">
+        #catapult-cookie-bar {
+            box-sizing: border-box;
+            max-height: 0;
+            opacity: 0;
+            z-index: 99999;
+            overflow: hidden;
+            color: #ddd;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #464646;
+        }
+        #catapult-cookie-bar a {
+            color: #fff;
+        }
+        #catapult-cookie-bar .x_close span {
+            background-color: #0c0c0c;
+        }
+        button#catapultCookie {
+            background:;
+            color: #0c0c0c;
+            border: 0; padding: 6px 9px; border-radius: 3px;
+        }
+        #catapult-cookie-bar h3 {
+            color: #ddd;
+        }
+        .has-cookie-bar #catapult-cookie-bar {
+            opacity: 1;
+            max-height: 999px;
+            min-height: 30px;
+        }</style><link rel="pingback" href="http://fluencyformation.fr/xmlrpc.php">		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+    <style type="text/css" id="custom-background-css">
+        body.custom-background { background-color: #eeeeee; }
+    </style>
+    <style type="text/css" id="wp-custom-css">
+        .logo{
+            padding:8px,0px;
+            position:absolute;
+            top:-13px;
+        }
+        .navbar-header{
+            height: 70PX;
+        }
+        #catalogue{
+            font-weight:bold;
+            border:1px solid #0066FF;
+            border-radius:5px;
+            padding:5px;
+            background-color:#0066FF;
+        }		</style>
+    <style type="text/css"> h1 span,.btn.btn-default,.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand,
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li.modal-button.active > a:hover,.control:hover,.doctor-list .overlay ul li a,
+    #filter-list li.active, #filter-list li.active:focus, #filter-list li.active:hover,#filter-list li:hover,.portfolio-overlay .fa:hover,.post-thumb .post-date,.post-info h3 a:hover,ul.entry-meta li a:hover,a:hover,.navigation.post-navigation  a,.post-by a:hover,.post-comments a:hover,.post-meta li a:hover,.list-inline li a:hover,a.more-link,.author-post .author-content a:hover,.single-post-tags li:first-of-type,.single .meta-featured-post,
+    .sidebar .widget ul li i,.comment-author-link,.sidebar .widget ul li a:hover,.contact-list a:hover,.close:hover,
+    input[type="submit"].btn.btn-primary:hover,.blog-post:hover .post-thumb .post-date a,.navbar-default .navbar-nav > li.modal-button > a:hover{color:#18afd3} .btn.btn-primary,.btn.btn-default:hover,.navbar-default .navbar-nav > li.modal-button > a,.navbar-default .navbar-nav > li.modal-button.active > a, .navbar-default .navbar-nav > li.modal-button.active > a:focus,.navbar-default .navbar-nav > li > a::before,.cd-headline.clip .cd-words-wrapper::after,.section-title h1::before,.single-progressbar .progress .progress-bar,.service-list:hover .service-info,.doctor-list .thumb::before,section.parallax-bg::before,.portfolio_items li .post_thumb::before,.navigation.post-navigation  a:hover,.post-password-form input[type="submit"],.pagination .page-numbers li span.current,.pagination.custom .page-numbers.current,.pagination .page-numbers li a:hover,.pagination .page-numbers a:hover,.pagination .page-numbers li.active,.sidebar .widget-title::before,.sidebar .widget .tagcloud a:hover,.search-form form .input-group-addon,.back-top i,.social-media > li .fa:hover,#consultation .modal-dialog .modal-content .modal-header,.navbar-default .navbar-toggle .icon-bar,
+                                                                                                                                                                .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,.navbar-default .navbar-nav > li.modal-button.active > a,.contact-list:hover .fa{background:#18afd3} .btn.btn-default,.btn.btn-default:hover,.navbar-default .navbar-nav > li.modal-button > a,.single-progressbar .progress,.service-list:hover .service-info,.doctor-list:hover .thumb,#filter-list li.active, #filter-list li.active:focus, #filter-list li.active:hover,#filter-list li:hover,
+                                                                                                                                                                                                                                                                                                                                                .blog-post:hover,blockquote,.navigation.post-navigation  a,.post-password-form input:focus,.blog-post blockquote,.author-post .author-img,
+                                                                                                                                                                                                                                                                                                                                                .sidebar .widget .tagcloud a:hover,ol.comments li div.vcard img.photo,.contact-list:hover .fa,.social-media > li .fa:hover,.modal .form-control:focus,
+                                                                                                                                                                                                                                                                                                                                                input[type="submit"].btn.btn-primary:hover,.navbar-default .navbar-toggle,.form-control:focus{border-color:#18afd3}
+    .blog-post blockquote{border-left-color:#18afd3;}.navbar-default .navbar-nav > li.modal-button.active > a{background:#18afd3!important}
+    .navbar-default .navbar-nav > li.modal-button.active > a:hover{color:#18afd3!important}</style><style type="text/css"></style><style type="text/css">.fancybox-margin{margin-right:17px;}</style><script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+<body class="post-template-default single single-post postid-739 single-format-standard custom-background">
+<!--Preload-->
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle offcanvas-toggle pull-right js-offcanvas-has-events" data-toggle="offcanvas" data-target="#navbar">
+                        <span class="sr-only"></span>
+                        <span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							</span>
+                    </button>
+                    <div class="logo">
+                        <a href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=v5qo49a41v30484e4dqgjq6rl1#accueil" class="navbar-brand">
+                            <img src="../Portfolio-ElsamFawzy/image/logo-FawzyElsam.jpg" alt="Fawzy Elsam">
+                        </a>
+                    </div>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-offcanvas navbar-offcanvas-touch offcanvas-transform js-offcanvas-done" id="navbar">
+                    <ul id="menu-main-menu" class="nav navbar-nav navbar-right"><li  id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4 current_page_item menu-item-657 active"><a title="ACCUEIL" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#accueil">ACCUEIL</a></li>
+                        <li  id="menu-item-828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-828"><a title="Qui suis-je" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#qui-suis-je">Qui suis-je</a></li>
+                        <li id="menu-item-922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-922 dropdown"><a title="Travaux pratique" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Travaux pratique <span class="caret"></span></a>
+                            <ul role="menu" class=" dropdown-menu">
+                                <li  id="menu-item-923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923"><a title="Travaux pratiue" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#TP">Travaux pratique</a></li>
+                                <li  id="menu-item-834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-834"><a title="PPE" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#PPE">PPE</a></li>
+                            </ul>
+                        </li>
+                        <li  id="menu-item-675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-675 dropdown"><a title="STAGE" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#Stage" >STAGE </a></li>
+                        <li  id="menu-item-675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-675 dropdown"><a title="ARTICLES" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Veille<span class="caret"></span></a>
+                            <ul role="menu" class=" dropdown-menu">
+                                <li id="menu-item-801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-801"><a title="NEWS" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#VeillieTC">Veille technologique</a></li>
+                                <li  id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a title="TRUCS ET ASTUCES" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#veillieJuridique">Veille juridique</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-673"><a title="Contact" href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=cs65h3anif4urr8lmkc4cvn8jm/#contact">Contact</a></li>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+<div id="primary" class="content-area">
+    <main id="main" class="site-main">
+
+        <!-- Main Content -->
+        <section class="section-spacing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="blog-post-block">
+                            <div class="archive-content">
+
+                                <article id="post-739" class="post-739 post type-post status-publish format-standard has-post-thumbnail hentry category-formations">
+
+                                    <div class="entry-content">
+                                        <div class="post-thumb">
+                                            <a href="http://fluencyformation.fr/espace-formation-opcalia/">
+                                                <img width="600" height="400" src="../Portfolio-ElsamFawzy/image/gsbmission3c-PPE.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="GSB.mission3B">				</a>
+                                        </div>
+
+                                        <div class="entry-header">
+                                            <h2>GSB.mission3B</h2>
+
+                                         </div>
+
+                                        <div class="post_desc">
+
+                                            <h3>Activités du portefeuille de compétences</h3>
+                                            <ul>
+                                                <li>Participation à un projet d’évolution d’un SI (solution applicative et d’infrastructure portant prioritairement sur le domaine de spécialité du candidat)</li>
+                                                <li>A1.1.1 , Analyse du cahier des charges d'un service à produire</li>
+                                                <li>A1.1.3 , Étude des exigences liées à la qualité attendue d'un service</li>
+                                                <li>A1.3.1 , Test d'intégration et d'acceptation d'un service </li>
+                                                <li>A1.3.4 , Déploiement d'un service </li>
+                                                <li>A1.4.1 , Participation  à un projet </li>
+                                                <li>A4.1.6 - Gestion d’environnements de développement et de test</li>
+                                                <li>A4.1.8 Réalisation des tests nécessaires à la validation d’éléments adaptés ou développés</li>
+                                                <li>A4.1.7 Développement, utilisation ou adaptation de composants logiciels</li>
+                                                <li>A4.1.9 - Rédaction d’une documentation technique</li>
+                                                <li>A4.1.10 Rédaction d’une documentation d’utilisation</li>
+                                                <li>A2.3.1 , Identification, qualification et évaluation d'un problème </li>
+                                                <li>A4.1.1 , Proposition d'une solution applicative</li>
+                                                <li>A4.1.2 , Conception ou adaptation de l'interface utilisateur d'une solution applicative </li>
+                                                <li>A4.2.3 , Réalisation des tests nécessaires à la mise en production d'éléments mis à jour </li>
+                                            </ul>
+
+                                            <center><h3>La mission</h3>
+                                                <p>
+                                                    L’application devra gérer les visiteurs, les médecins, les médicaments et permettre de créer des rapports,
+                                                    à partir de fiches de rapport de visite envoyées par les visiteurs par mail au format pdf. L’application
+                                                    devra produire également différents états.
+                                                </p></center>
+                                        </div><!--end post desc-->
+
+                                    </div><!-- .entry-content -->
+
+                                </article><!-- #post-## -->
+                            </div>
+
+
+                            <!-- Comments Area -->
+                            <div class="comments-area" id="comments">
+
+                                <div id="respond" class="comment-respond">
+                                    <center><a style="color: white;" href="https://drive.google.com/drive/u/0/folders/1CjhjktmrnVgPCRjK8OkmeS4WeSrT0dKA" target="_blank"><span style="padding: 5px; background-color: #46b8da; border: 1px solid black; border-radius: 10px">Dossier</span></a></center>
+                                </div><!-- #respond -->
+                            </div> <!-- end comments-area -->
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <aside id="secondary" class="sidebar" role="complementary">
+                            <!--<aside id="search-2" class="widget widget_search">
+                                <div class="search-widget search-form">
+                                    <form method="get" class="searchform" action="http://fluencyformation.fr/" id="search">
+                                        <div class="input-group">
+                                             <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </aside>	-->
+                            </ul>
+                            <aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Catégories</h3>
+                                <ul>
+                                    <li class="cat-item cat-item-14"><a href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=v5qo49a41v30484e4dqgjq6rl1#TP">TRAVAUX PRATIQUE</a>
+                                    </li>
+                                    <li class="cat-item cat-item-9"><a href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=v5qo49a41v30484e4dqgjq6rl1#PPE">PPE</a>
+                                    </li>
+                                    <li class="cat-item cat-item-15"><a href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=v5qo49a41v30484e4dqgjq6rl1#Stage">STAGE</a>
+                                    </li>
+                                    <li class="cat-item cat-item-10"><a href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=v5qo49a41v30484e4dqgjq6rl1#">VEILLE TECHNOLOGIQUE</a>
+                                    </li>
+                                    <li class="cat-item cat-item-1"><a href="http://localhost:63342/Portfolio-ElsamFawzy/Acceui-PortfolioFawzy.html?_ijt=v5qo49a41v30484e4dqgjq6rl1#">VEILLE JURIDIQUE</a>
+                                    </li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end main-content-->
+    </main><!-- #main -->
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10">
+                <div class="copyright">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-2">
+                <ul class="social-media">
+                    <li><a href="" target="_blank"><img src="../Portfolio-ElsamFawzy/image/fb.JPG"></a></li>
+                    <li><a href="https://www.linkedin.com/in/fawzy-elsam-b18040150/" target="_blank"><img src="../Portfolio-ElsamFawzy/image/lk.JPG"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="http://fluencyformation.fr/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Fermer","currentText":"Aujourd\u2019hui","monthNames":["janvier","f\u00e9vrier","mars","avril","mai","juin","juillet","ao\u00fbt","septembre","octobre","novembre","d\u00e9cembre"],"monthNamesShort":["Jan","F\u00e9v","Mar","Avr","Mai","Juin","Juil","Ao\u00fbt","Sep","Oct","Nov","D\u00e9c"],"nextText":"Suivant","prevText":"Pr\u00e9c\u00e9dent","dayNames":["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],"dayNamesShort":["dim","lun","mar","mer","jeu","ven","sam"],"dayNamesMin":["D","L","M","M","J","V","S"],"dateFormat":"d MM yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/plugins/booked/assets/js/spin.min.js?ver=2.0.1"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/plugins/booked/assets/js/spin.jquery.js?ver=2.0.1"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js?ver=3.3.0"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var booked_js_vars = {"ajax_url":"http:\/\/fluencyformation.fr\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/plugins/booked/assets/js/functions.js?ver=2.2.2"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var ctcc_vars = {"expiry":"30","method":"1","version":"1"};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js?ver=2.3.0"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var booked_fea_vars = {"ajax_url":"http:\/\/fluencyformation.fr\/wp-admin\/admin-ajax.php","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_confirm_appt_approve":"Are you sure you want to approve this appointment?"};
+    /* ]]> */
+</script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/plugins/booked-frontend-agents/js/functions.js?ver=2.2.2"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/bootstrap.min.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/jquery.easing.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/newsticker.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/jquery.mixitup.min.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/bootstrap.offcanvas.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/jquery.counterup.min.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/waypoints.min.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/wow.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/fancybox/jquery.fancybox.pack.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-content/themes/medison/js/script.js?ver=1.0"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-includes/js/comment-reply.min.js?ver=5.0.4"></script>
+<script type="text/javascript" src="http://fluencyformation.fr/wp-includes/js/wp-embed.min.js?ver=5.0.4"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        if(!catapultReadCookie("catAccCookies")){ // If the cookie has not been set then show the bar
+            $("html").addClass("has-cookie-bar");
+            $("html").addClass("cookie-bar-bottom-bar");
+            $("html").addClass("cookie-bar-bar");
+        }
+    });
+</script>
+</body>
+</html>
